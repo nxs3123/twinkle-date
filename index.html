@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our First Date After Marriage 💍✨</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: #333;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #b20047;
+    }
+    p {
+      font-size: 1.3em;
+      margin: 20px 0;
+    }
+    .button-container {
+      margin-top: 30px;
+    }
+    button {
+      background: #ff4d79;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 1.2em;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #e6005c;
+      transform: scale(1.1);
+    }
+    #message {
+      margin-top: 40px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #4a004a;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey Twinkle ❤️</h1>
+  <p>Now that we’re officially husband & wife...  
+     how about making our <strong>first date after marriage</strong> unforgettable?</p>
+  <p>Will you go out with me this weekend? 🌙🍷✨</p>
+
+  <div class="button-container">
+    <button onclick="sayYes()">Yes 💕</button>
+    <button onclick="sayNo()">No 🙈</button>
+  </div>
+
+  <div id="message"></div>
+
+  <script>
+    function sayYes() {
+      document.getElementById("message").style.display = "block";
+      document.getElementById("message").innerHTML = 
+        "Yaaay! 💖 Get ready my love, because our forever date starts now! 🥰🍽️🎶";
+    }
+    function sayNo() {
+      document.getElementById("message").style.display = "block";
+      document.getElementById("message").innerHTML = 
+        "Aww 😢 but you can’t say no... I’m your husband now 😉💍";
+    }
+  </script>
+</body>
+</html>
